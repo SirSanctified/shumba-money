@@ -1,0 +1,25 @@
+.Missing {
+  padding: 2rem;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  margin: 3rem auto;
+}
+
+.Missing p {
+  text-align: center;
+}
+
+.Missing .btn-missing {
+  width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+  .Missing {
+    width: 98vw;
+  }
+}

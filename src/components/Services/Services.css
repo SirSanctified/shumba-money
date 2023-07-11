@@ -1,0 +1,82 @@
+.Services {
+  padding: 0 2rem;
+  max-width: 100vw;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-block: 3rem;
+}
+
+.service-card {
+  background: var(--serviceCard);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 2rem 1rem;
+  border-radius: 0.5rem;
+  width: 19rem;
+  height: 28rem;
+  transition: all 500ms ease;
+}
+
+.icon:nth-child(1) {
+  font-size: 3rem;
+  color: var(--shumba);
+}
+
+.service-card:hover {
+  background: var(--filler);
+}
+
+.service-card:hover .icon:nth-child(1) {
+  color: var(--lightgray);
+}
+
+.service-card:hover .btn.btn-outline {
+  border: 1px solid var(--lightgray);
+  color: var(--lightgray);
+}
+
+.service-card:hover .btn.btn-outline:hover {
+  background: var(--lightgray);
+  color: var(--shumba);
+}
+
+.service-description {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-name h1 {
+  color: var(--lightgray);
+  margin-block: 1rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .Services {
+    padding: 2rem;
+  }
+  .service-card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Services {
+    padding: 2rem 1rem;
+  }
+}
