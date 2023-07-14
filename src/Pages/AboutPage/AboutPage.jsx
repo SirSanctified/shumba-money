@@ -62,7 +62,11 @@ const AboutPage = () => {
             </div>
             <div className="right-v">
               <p>
-                Our vision is to become the leading platform in Zimbabwe that seamlessly integrates various services, making people's lives easier and more enjoyable. We aim to be at the forefront of innovation, constantly adapting to the changing landscape and delivering exceptional value to our customers.
+                Our vision is to become the leading platform in Zimbabwe that
+                seamlessly integrates various services, making people's lives
+                easier and more enjoyable. We aim to be at the forefront of
+                innovation, constantly adapting to the changing landscape and
+                delivering exceptional value to our customers.
               </p>
             </div>
           </div>
@@ -98,42 +102,40 @@ const AboutPage = () => {
           <ul className="values-list">
             <li className="value">
               <span>icon</span>
-              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+              <h2>Accessibility</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                cupiditate quia temporibus molestias sint harum obcaecati,
-                minima eveniet quasi, ipsam ad ratione! Cum, obcaecati
-                perspiciatis incidunt error dolorem fugiat architecto.
+                We believe everyone deserves opportunities to improve their
+                finances and express their authentic self through fashion,
+                regardless of background. We strive to make our services and
+                products affordable and convenient for all.
               </p>
             </li>
             <li className="value">
               <span>icon</span>
-              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+              <h2>Empowerment</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                cupiditate quia temporibus molestias sint harum obcaecati,
-                minima eveniet quasi, ipsam ad ratione! Cum, obcaecati
-                perspiciatis incidunt error dolorem fugiat architecto.
+                We exist to equip Zimbabweans with the tools, knowledge and
+                community needed to take control of their money lives and
+                identities on their own terms. Financial freedom starts within.
               </p>
             </li>
             <li className="value">
               <span>icon</span>
-              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+              <h2>Originality</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                cupiditate quia temporibus molestias sint harum obcaecati,
-                minima eveniet quasi, ipsam ad ratione! Cum, obcaecati
-                perspiciatis incidunt error dolorem fugiat architecto.
+                We celebrate individuality and creating one's own unique path.
+                Superficial trends have no place here; we value authenticity
+                above all.
               </p>
             </li>
             <li className="value">
               <span>icon</span>
-              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+              <h2>Transformation</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                cupiditate quia temporibus molestias sint harum obcaecati,
-                minima eveniet quasi, ipsam ad ratione! Cum, obcaecati
-                perspiciatis incidunt error dolorem fugiat architecto.
+                We aim to positively change lives through education, community
+                and resources that uplift the financial, emotional and social
+                wellbeing of our members. We want to help transform Zimbabwe,
+                one person at a time.
               </p>
             </li>
           </ul>
