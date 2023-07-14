@@ -1,7 +1,7 @@
-import { FaArrowRight } from "react-icons/fa";
+import { FaTshirt, FaAd, FaTv, FaArrowRight, FaDollarSign, FaNewspaper } from "react-icons/fa";
 import { images, videos } from "../assets";
 import { Video } from "../components";
-import { MdCheckCircleOutline } from "react-icons/md";
+import { MdCheckCircleOutline, MdEventAvailable, MdEventNote, MdGroup } from "react-icons/md";
 
 const Clothing = () => (
   <section className="clothing">
@@ -23,7 +23,7 @@ const Clothing = () => (
       </div>
       <div className="right">
         <div className="heading">
-          <h3>Our Collection</h3>
+          <h3>What's In Our Collection</h3>
           <hr style={{ color: "var(--gray)" }} />
         </div>
         <div>
@@ -403,7 +403,7 @@ const News = () => (
       </div>
       <div className="left">
         <div className="heading">
-          <h3>What's In Fo You</h3>
+          <h3>What's In For You</h3>
           <hr style={{ color: "var(--gray)" }} />
         </div>
         <p>
@@ -472,8 +472,18 @@ const Money = () => (
   </section>
 );
 
+const fashion = <FaTshirt />
+const advertising = <FaAd />
+const entertainment = <FaTv />
+const money = <FaDollarSign />
+const news = <FaNewspaper />
+const events = <MdEventAvailable />
+const eventPlanning = <MdEventNote />
+const consultation = <MdGroup />
+
 const services = [
   {
+    icon: fashion,
     name: "Clothing",
     sub: "Affordable Urban Fashion Made For The Free-Spirited Go-Getter",
     description:
@@ -481,6 +491,7 @@ const services = [
     jsx: <Clothing />,
   },
   {
+    icon: consultation,
     name: "Fashion Consultation",
     sub: "Look and Feel Your Best with the Help of Our Professional Image Consultants",
     description:
@@ -488,6 +499,7 @@ const services = [
     jsx: <Consultation />,
   },
   {
+    icon: advertising,
     name: "Marketing",
     sub: "Grow Your Business Reach and Revenue Through Cutting-Edge Digital Strategies",
     description:
@@ -495,6 +507,7 @@ const services = [
     jsx: <Marketing />,
   },
   {
+    icon: entertainment,
     name: "Entertainment",
     sub: "Your Passport to the Best Live Shows, Festivals and Celebrity Parties",
     description:
@@ -502,6 +515,7 @@ const services = [
     jsx: <Entertainment />,
   },
   {
+    icon: eventPlanning,
     name: "Event Planning",
     sub: "Leave the Stress Behind and Trust Our Experts to Orchestrate Your Perfect Day",
     description:
@@ -509,6 +523,7 @@ const services = [
     jsx: <EventPlanning />,
   },
   {
+    icon: events,
     name: "Beitbridge Events",
     sub: " Insider Access to the Hottest Parties, Gigs and Get-Togethers in Zimbabwe's Party Capital",
     description:
@@ -516,6 +531,7 @@ const services = [
     jsx: <Events />,
   },
   {
+    icon: news,
     name: "Entertainment News",
     sub: "Get the Juicy Gossip, Unfiltered Interviews and Exclusive Recommendations Reserved Just for Members",
     description:
@@ -523,6 +539,7 @@ const services = [
     jsx: <News />,
   },
   {
+    icon: money,
     name: "Money Transfer",
     sub: "Sending Funds was Never This Easy or Convenient",
     description:

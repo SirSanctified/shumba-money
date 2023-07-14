@@ -11,7 +11,7 @@ const ServiceCard = ({ serviceName, serviceIcon, serviceDescription }) => {
     <div className="service-content">
       <div className="icon">{serviceIcon}</div>
       <div className="service-name">
-        <h1>{serviceName}</h1>
+        <h1 style={{fontStyle: "italic"}}>{serviceName}</h1>
       </div>
       <div className="service-description">
         <p>{serviceDescription}</p>

@@ -13,13 +13,13 @@
   flex-basis: 50%;
 }
 .content-f p {
-  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .first-section .video-f .video-container {
   max-width: 100%;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
 }
 
 .video-f video {
@@ -78,7 +78,7 @@
 }
 
 .vision p, .mission p {
-  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .values {
@@ -99,10 +99,12 @@
   flex-direction: column;
   align-items: center;
   background: var(--serviceCard);
-  padding: 1rem;
+  padding: 2rem 1rem;
   border: 2px solid var(--shumba);
   transition: all 500ms linear;
   border-radius: 1rem 0 ;
+  width: 20rem;
+  height: 22rem;
 }
 
 .value:hover {
@@ -121,6 +123,16 @@
   padding-block: 2rem;
 }
 
+.team-intro {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-intro .heading {
+  align-items: center;
+}
 
 .team-members {
   display: flex;
@@ -236,11 +248,19 @@
   .value:hover {
     scale: 1;
   }
+
+  .team-intro .heading {
+    align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .value {
     max-width: 40rem;
+  }
+
+  .team-intro {
+    flex-direction: column;
   }
 }
 

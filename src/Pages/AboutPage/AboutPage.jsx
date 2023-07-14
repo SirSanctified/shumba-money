@@ -13,17 +13,34 @@ const AboutPage = () => {
       <div className="heading">
         <h1>About Shumba Money</h1>
         <hr />
+        <p>Welcoming all those who aspire</p>
       </div>
       <div className="first-section">
         <div className="content-f">
           <p>
-            Welcome to Shumba Money, your one-stop destination for all things
-            clothing, fashion consultation, marketing and advertising,
-            entertainment, entertainment news, Beitbridge events, event
-            planning, and transfering money within Zimbabwe. We are a dynamic
-            start-up that aims to revolutionize the way you experience these
-            aspects.
+            At Shumba, we believe true wealth comes from more than money in the
+            bank. It includes financial independence, community and the freedom
+            to express yourself. That's why we founded Shumba Money - to provide
+            fashion, finances and community that unlock a richer life for all
+            Zimbabweans, regardless of background.
           </p>
+          <p>
+            Here you'll find trendy style at fair prices, financial tools that
+            build real wealth and a community that inspires each member to be
+            their most authentic self. Our products are just the beginning. The
+            real transformation happens within each person who joins our family,
+            as aspirations become reality through the power of community,
+            finances that work for you and fashion that expresses your true
+            self.
+          </p>
+          <p>
+            Walk with us on our journey to create a Zimbabwe where what's within
+            each person - their spirit, talent and unique perspective - has the
+            opportunity to flourish. You belong here.
+          </p>
+          <a href="/#Contact" className="btn btn-outline">
+            Get Started <FaArrowRight />
+          </a>
         </div>
         <div className="video-f">
           <Video source={videos.fashionMan} />
@@ -31,8 +48,9 @@ const AboutPage = () => {
       </div>
       <div className="history">
         <div className="heading">
-          <h1>Our Background</h1>
+          <h1>Our Origin Story</h1>
           <hr />
+          <p>How It All Began</p>
         </div>
         <div className="history-content">
           <div className="image-history">
@@ -40,21 +58,47 @@ const AboutPage = () => {
           </div>
           <div className="content-history">
             <p>
-              Shumba Money was founded in 2020 by a group of passionate
-              individuals who saw the need for a platform that seamlessly
-              integrates various services under one roof. With a combined
-              experience of over 10 years in the industry, our team is dedicated
-              to providing innovative solutions that cater to the diverse needs
-              of our customers.
+              Shumba Money started with a simple but radical idea: that
+              Zimbabweans deserved access to financial services, fashion and
+              community on their own terms.
             </p>
+            <p>
+              It was founded in 2020 by a group of passionate individuals who
+              saw the need for a platform that seamlessly integrates various
+              services under one roof. With a combined experience of over 10
+              years in the industry, our team is dedicated to providing
+              innovative solutions that cater to the diverse needs of our
+              customers.We launched with three key services that aimed to uplift
+              the financial, emotional and social wellbeing of Zimbabweans:
+            </p>
+            <ul
+              style={{
+                paddingLeft: "2rem",
+                color: "var(--lightgray)",
+                fontSize: "1rem",
+              }}
+            >
+              <li>An affordable clothing line called Shumba Style</li>
+              <li>
+                A fast, convenient money transfer service called Shumba Money
+              </li>
+            </ul>
+            <p>
+              Since then we've expanded to offer event planning, fashion
+              consultation, entertainment packages, marketing solutions and more
+              - each innovation guided by our vision to positively transform
+              lives through fashion, finances and community that empower.
+            </p>
+            <a href="/#services" className="btn" style={{marginTop: "2rem"}}>Explore Our Services <FaArrowRight /></a>
           </div>
         </div>
       </div>
       <div className="vision-and-mission">
         <div className="vision">
           <div className="heading">
-            <h1>Our Vision</h1>
+            <h1>Our Aspiration</h1>
             <hr />
+            <p>Where We're Headed</p>
           </div>
           <div className="vision-content">
             <div className="left-v">
@@ -62,19 +106,29 @@ const AboutPage = () => {
             </div>
             <div className="right-v">
               <p>
-                Our vision is to become the leading platform in Zimbabwe that
-                seamlessly integrates various services, making people's lives
-                easier and more enjoyable. We aim to be at the forefront of
-                innovation, constantly adapting to the changing landscape and
-                delivering exceptional value to our customers.
+                Our big dream is to transform Zimbabwe into a nation where
+                looking and living your best is accessible to all.
+              </p>
+              <p>
+                At Shumba Money, our aspiration is to become the leading
+                platform in Zimbabwe that seamlessly integrates various
+                services, making people's lives easier and more enjoyable. We
+                aim to be at the forefront of innovation, constantly adapting to
+                the changing landscape and delivering exceptional value to our
+                customers.
+              </p>
+              <p>
+                We envision a Zimbabwe where style, finance and passion unite us
+                all - regardless of background.
               </p>
             </div>
           </div>
         </div>
         <div className="mission">
           <div className="heading">
-            <h1>Our Mission</h1>
+            <h1>Our Purpose</h1>
             <hr />
+            <p>Our Reason For Being</p>
           </div>
           <div className="mission-content">
             <div className="left-m">
@@ -89,19 +143,23 @@ const AboutPage = () => {
                 events, and financial transactions, making their lives easier
                 and more enjoyable.
               </p>
+              <p>
+                We exist to unlock the power within every Zimbabwean to look and
+                live they way they desire—free from constraints.
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div className="values">
         <div className="heading">
-          <h1>Our values</h1>
+          <h1>The Foundation of Our Enterprise</h1>
           <hr />
+          <p>Principles That Guide Our Every Move</p>
         </div>
         <div className="values-content">
           <ul className="values-list">
             <li className="value">
-              <span>icon</span>
               <h2>Accessibility</h2>
               <p>
                 We believe everyone deserves opportunities to improve their
@@ -111,7 +169,6 @@ const AboutPage = () => {
               </p>
             </li>
             <li className="value">
-              <span>icon</span>
               <h2>Empowerment</h2>
               <p>
                 We exist to equip Zimbabweans with the tools, knowledge and
@@ -120,7 +177,6 @@ const AboutPage = () => {
               </p>
             </li>
             <li className="value">
-              <span>icon</span>
               <h2>Originality</h2>
               <p>
                 We celebrate individuality and creating one's own unique path.
@@ -129,7 +185,6 @@ const AboutPage = () => {
               </p>
             </li>
             <li className="value">
-              <span>icon</span>
               <h2>Transformation</h2>
               <p>
                 We aim to positively change lives through education, community
@@ -142,16 +197,18 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="team">
-        <div className="heading">
-          <h1>Meet Our Team</h1>
-          <hr />
+        <div className="team-intro">
+          <div className="heading">
+            <h1>Meet Leading Our Team</h1>
+            <hr />
+            <p>The Minds Behind Shumba Money</p>
+          </div>
           <p>
-            At Shumba Money, we believe that a strong team is the backbone of
-            any successful venture. Our team consists of talented professionals
-            from various backgrounds, including fashion, marketing,
-            entertainment, and finance. Together, we bring a wealth of knowledge
-            and expertise to the table, ensuring that we deliver the best
-            possible experience to our customers.
+            Together, our team of talented executives, brand visionaries and
+            financial experts pour their passion into every product and
+            experience we offer - driven by a common purpose: to positively
+            transform lives through finances, fashion and community that
+            empower.
           </p>
         </div>
         <ul className="team-members">

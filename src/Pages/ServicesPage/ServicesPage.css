@@ -375,6 +375,7 @@ h3 {
 
   .outro {
     flex-direction: column;
+    padding-top: 1rem;
   }
 
   .consultation .outro {
