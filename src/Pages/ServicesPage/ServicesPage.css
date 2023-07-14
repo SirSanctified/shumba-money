@@ -99,10 +99,10 @@
 }
 
 .bgColor {
-  height: 250px;
+  height: 280px;
   width: 150px;
-  top: 15%;
-  right: 20%;
+  top: 10%;
+  right: 30%;
   border-radius: 0.5rem;
   z-index: 0;
   position: absolute;

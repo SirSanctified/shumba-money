@@ -9,7 +9,7 @@ const FAQS = () => {
     selected === index ? setSelected(null) : setSelected(index);
   };
   return (
-    <section className="faqs">
+    <section className="faqs" id="faqs">
     <div className="blur blur-faqs"></div>
       <div className="heading">
         <h1>Frequently Asked Questions</h1>

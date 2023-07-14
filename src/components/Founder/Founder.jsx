@@ -37,7 +37,7 @@ const Founder = () => {
             </p>
           </div>
           <hr />
-          <p className="founder-name">Martin Mbire</p>
+          <p className="founder-name">Marshall Tatenda Maravanyika</p>
         </div>
       </article>
     </section>

@@ -27,6 +27,9 @@ const Header = () => {
             <a href="/#Gallery">Gallery</a>
           </li>
           <li>
+            <a href="/#faqs">FAQs</a>
+          </li>
+          <li>
             <a href="/#Contact">Contact Us</a>
           </li>
         </ul>
@@ -67,6 +70,9 @@ const Header = () => {
               </li>
               <li>
                 <a href="/#Gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="/#faqs">FAQs</a>
               </li>
               <li>
                 <a href="/#Contact">Contact Us</a>

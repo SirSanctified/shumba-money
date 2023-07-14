@@ -484,14 +484,14 @@ const services = [
     name: "Fashion Consultation",
     sub: "Look and Feel Your Best with the Help of Our Professional Image Consultants",
     description:
-      "Looking to update your style but not sure where to start? Our fashion experts strive to bring out the confidence and inner glow that comes from feeling comfortable and attractive in your own skin. We help clients dress their personal best while staying true to who they are - because a stylish life begins within. Whether you're looking for a new wardrobe or just need some styling tips, we've got you covered.",
+      "Our fashion experts strive to bring out the confidence and inner glow that comes from feeling comfortable and attractive in your own skin. We help clients dress their personal best while staying true to who they are - because a stylish life begins within.",
     jsx: <Consultation />,
   },
   {
     name: "Marketing",
     sub: "Grow Your Business Reach and Revenue Through Cutting-Edge Digital Strategies",
     description:
-      "Are your marketing efforts failing to generate the leads and sales you need? In today's fast-paced business world, effective marketing and advertising are essential to success. More sales start with Shumba. Let the experts at Shumba marketing revamp your entire digital strategy from the ground up.",
+      "In today's fast-paced business world, effective marketing and advertising are essential to success. More sales start with Shumba. Let the experts at Shumba marketing revamp your entire digital strategy from the ground up.",
     jsx: <Marketing />,
   },
   {
@@ -505,7 +505,7 @@ const services = [
     name: "Event Planning",
     sub: "Leave the Stress Behind and Trust Our Experts to Orchestrate Your Perfect Day",
     description:
-      "Are you planning a wedding, conference, product launch, fundraiser or any other major event that needs to go off without a hitch? Let Shumba's renowned event experts handle every detail so you can fully enjoy this special day. From venue selection and decor to menus, entertainment and photography, our team of seasoned event managers has the expertise, creative flair and calm authority to orchestrate an unforgettable experience that leaves lasting memories and positive impressions.",
+      "Are you planning a wedding, conference, product launch, fundraiser or any other major event that needs to go off without a hitch? Let Shumba's renowned event experts handle every detail so you can fully enjoy this special day. From venue selection and decor to menus, entertainment and photography, our team of seasoned ...",
     jsx: <EventPlanning />,
   },
   {

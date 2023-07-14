@@ -158,11 +158,12 @@ const AboutPage = () => {
               <div className="socials_image">
                 <motion.ul
                   className="socials"
-                  initial={{ y: 100 }}
+                  initial={{ y: -100 }}
                   whileInView={{
                     transition: transition,
                     y: 0,
                   }}
+                  exit={{ transition: transition, y: 100 }}
                 >
                   {member.socials.map((social, index) => (
                     <li className="social" key={index}>

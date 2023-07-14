@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Services.css";
-import { services } from "../../assets/servicesData";
+import { services } from "../../constants";
 import { FaArrowRight } from "react-icons/fa";
 
 const ServiceCard = ({ serviceName, serviceIcon, serviceDescription }) => {
