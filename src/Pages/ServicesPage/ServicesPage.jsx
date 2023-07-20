@@ -6,13 +6,13 @@ import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 const ServicesPage = () => {
   const [activeTab, setActiveTab] = React.useState(0);
-  const scrollRef = React.useRef()
+  const scrollRef = React.useRef();
 
   const scroll = (direction) => {
-    direction === 'left' ?
-      scrollRef.current.scrollLeft -= 100 :
-      scrollRef.current.scrollLeft += 100
-  }
+    direction === "left"
+      ? (scrollRef.current.scrollLeft -= 100)
+      : (scrollRef.current.scrollLeft += 100);
+  };
   const handleTabClick = (index) => {
     setActiveTab(parseInt(index));
   };
@@ -24,10 +24,18 @@ const ServicesPage = () => {
       </div>
       <div className="services-container">
         <div className="leftArrow">
-          <MdChevronLeft size={40} onClick={() => scroll('left')} style={{color: 'var(--shumba)'}} />
+          <MdChevronLeft
+            size={40}
+            onClick={() => scroll("left")}
+            style={{ color: "var(--shumba)" }}
+          />
         </div>
         <div className="rightArrow">
-        <MdChevronRight size={40} onClick={() => scroll('right')} style={{color: 'var(--shumba)'}} />
+          <MdChevronRight
+            size={40}
+            onClick={() => scroll("right")}
+            style={{ color: "var(--shumba)" }}
+          />
         </div>
         <ul className="tabs" ref={scrollRef}>
           {services.map((service, index) => (
@@ -42,9 +50,7 @@ const ServicesPage = () => {
         </ul>
         <h2 className="subheading">{services[activeTab].sub}</h2>
         <hr />
-        <div className="service-content">
-          {services[activeTab].jsx}
-        </div>
+        <div className="service-content">{services[activeTab].jsx}</div>
       </div>
       <div className="cta">
         <p>

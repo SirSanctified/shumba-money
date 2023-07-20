@@ -17,8 +17,8 @@
   flex-direction: column;
 }
 
-.socials>* {
-  color: var(--lightgray)
+.socials > * {
+  color: var(--lightgray);
 }
 
 .Footer .socials {

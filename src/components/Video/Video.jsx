@@ -2,7 +2,7 @@ import React from "react";
 import { MdPause, MdPlayArrow } from "react-icons/md";
 import "./Video.css";
 
-const Video = ( { source } ) => {
+const Video = ({ source }) => {
   const [playVideo, setPlayVideo] = React.useState(false);
   const vidRef = React.useRef();
   const handleVideo = () => {
@@ -18,9 +18,9 @@ const Video = ( { source } ) => {
       <div className="overlay">
         <div className="overlay-buttons__container" onClick={handleVideo}>
           {!playVideo ? (
-            <MdPlayArrow color="#f48915" size={30} />
+            <MdPlayArrow color="#fff" size={30} />
           ) : (
-            <MdPause color="#f48915" size={30} />
+            <MdPause color="#fff" size={30} />
           )}
         </div>
       </div>

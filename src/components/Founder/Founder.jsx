@@ -2,16 +2,11 @@ import React from "react";
 import "./Founder.css";
 import { BsQuote } from "react-icons/bs";
 import { images } from "../../assets";
-import { motion } from "framer-motion";
 
 const Founder = () => {
   return (
     <section className="Founder">
       <article className="founder">
-        <motion.img
-          initial={{x: -200}}
-          whileInView={{transition: {duration: 3, type: 'tween'}, x: 0 }}
-        src={images.servicesBack} alt="" />
         <div className="image-container">
           <img src={images.founder} alt="Founder of Shumba Money" />
         </div>
@@ -37,7 +32,7 @@ const Founder = () => {
             </p>
           </div>
           <hr />
-          <p className="founder-name">Marshall Tatenda Maravanyika</p>
+          <p className="founder-name">Marshall Tatenda Mushayikwa</p>
         </div>
       </article>
     </section>

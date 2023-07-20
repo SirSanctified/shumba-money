@@ -14,7 +14,7 @@
   position: relative;
 }
 
-.founder >img:nth-child(1) {
+.founder > img:nth-child(1) {
   filter: none;
   position: absolute;
   left: 38%;
@@ -29,13 +29,11 @@
 }
 
 .image-container img {
-  width: 400px;
+  width: 420px;
   height: 500px;
   object-fit: cover;
-  border: 0.7rem solid var(--shumba);
   height: 500px;
-  border-top-right-radius: 15%;
-  border-bottom-left-radius: 15%;
+  border-radius: 2%;
 }
 
 .qoute {
@@ -61,17 +59,18 @@
 .founder-name {
   font-style: italic;
   font-size: 2rem;
+  font-family: "Alegreya Sans", sans-serif;
   color: var(--gray);
 }
 
-.qoute >hr {
+.qoute > hr {
   margin-top: 3rem;
   margin-bottom: 0.2rem;
   margin-left: 2rem;
 }
 
 @media screen and (max-width: 1115px) {
-  .founder >img:nth-child(1) {
+  .founder > img:nth-child(1) {
     top: 5rem;
   }
 }
@@ -86,7 +85,7 @@
     align-items: center;
   }
 
-  .founder >img:nth-child(1) {
+  .founder > img:nth-child(1) {
     display: none;
   }
 
@@ -120,7 +119,7 @@
     font-size: 1.5rem;
   }
 
-  .qoute >hr {
+  .qoute > hr {
     margin-top: 2rem;
     margin-bottom: 0.2rem;
     margin-left: 0;

@@ -27,7 +27,7 @@
   color: var(--lightgray);
 }
 
-.left-l > div:nth-child(3) {
+.left-l > div:nth-child(4) {
   align-items: flex-start;
   margin-top: 1rem;
 }

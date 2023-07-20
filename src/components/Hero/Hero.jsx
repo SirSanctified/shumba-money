@@ -1,66 +1,60 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Hero.css";
-import { images } from "../../assets";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaCheck } from "react-icons/fa";
 
 const Hero = () => {
   const width = window.innerWidth;
   const transition = {
-    duration: 3,
+    duration: 4,
     type: "tween",
   };
 
   return (
     <main className="Hero">
-      <div className="blur blur-hero"></div>
       <div className="left-h">
         <div>
           <motion.div
             className="overlay_div"
             initial={{
-              x: width > 375 ? "15rem" : "13rem",
+              x: width > 414 ? "12rem" : "10rem",
               transition: transition,
             }}
             whileInView={{ x: 0, transition: transition }}
           ></motion.div>
-          <h2 className="tag">The next generation fashionistas&#39; city</h2>
+          <h2 className="tag">Unlock Your Best Life</h2>
         </div>
-        <h1>
-          <span className={width >= 600 ? "stroke-text" : ""}>
-            The future of stylish
-          </span>{" "}
-          <span>clothing, advertising, and entertainment is here</span>
-        </h1>
+        <h1>Essentials for more than just wealth</h1>
         <p>
-          Introducing{" "}
-          <span
-            style={{
-              fontWeight: "bold",
-              color: "var(--shumba)",
-              textTransform: "uppercase",
-            }}
-          >
-            Shumba Money
-          </span>
-          , the one-stop shop for all your fashion, advertising and
-          entertainment needs. We offer a wide variety of stylish clothing,
-          affordable advertising options, and a platform for you to enjoy with
-          friends and family
+          We believe true riches come from community, freedom of expression..and
+          experiencing life fully. That's why we offer far more than finances -
+          aiming to enrich your life through:
         </p>
+        <ul className="hero-list">
+          <li>
+            <FaCheck />
+            <p>Trendy fashion at fair prices</p>
+          </li>
+          <li>
+            <FaCheck />
+            <p>Financial tools that build wealth</p>
+          </li>
+          <li>
+            <FaCheck />
+            <p>A community that inspires</p>
+          </li>
+          <li>
+            <FaCheck />
+            <p>Cultural experiences</p>
+          </li>
+        </ul>
+        <p>All designed to unleash the fullest version of you.</p>
         <a href="/#services" className="btn btn-hero">
-          Explore Our Services <FaArrowRight />
+          Find Out How <FaArrowRight />
         </a>
       </div>
       <div className="right-h">
-        <div></div>
-        <div></div>
-        <div className="images">
-          <img
-            src={images.jacket}
-            alt="Lady with yellow jacket holding a flower"
-          />
-        </div>
+        <div className="images"></div>
       </div>
     </main>
   );

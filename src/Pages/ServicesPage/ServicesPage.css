@@ -81,7 +81,7 @@
   justify-content: center;
 }
 
-.clothing .intro >* {
+.clothing .intro > * {
   flex: auto;
 }
 
@@ -92,22 +92,23 @@
   position: relative;
 }
 
-.clothing-image img {
+.service-content .clothing-image img {
   position: relative;
   z-index: 3;
-  height: 300px;
+  width: 300px;
+  height: 400px;
 }
 
 .bgColor {
-  height: 280px;
+  height: 380px;
   width: 150px;
-  top: 10%;
-  right: 30%;
+  top: 3%;
+  right: 20%;
   border-radius: 0.5rem;
   z-index: 0;
   position: absolute;
-  background: var(--filler);
-  transform: rotate(15deg);
+  background: var(--shumba);
+  transform: rotate(10deg);
 }
 
 .list {
@@ -246,7 +247,8 @@ h3 {
   height: 300px;
 }
 
-.entertainment .outro .cta p, .events .cta p {
+.entertainment .outro .cta p,
+.events .cta p {
   font-size: 1rem;
   color: var(--lightgray);
   max-width: 80ch;
@@ -260,16 +262,16 @@ h3 {
   border-radius: 0.5rem;
 }
 
-.events>.intro {
+.events > .intro {
   justify-content: center;
 }
 
-.events>.intro >img {
+.events > .intro > img {
   max-width: 300px;
   height: 300px;
 }
 
-.events>.intro>p {
+.events > .intro > p {
   max-width: 80ch;
 }
 .second__div {

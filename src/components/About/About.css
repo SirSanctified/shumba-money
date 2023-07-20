@@ -16,7 +16,6 @@
 }
 
 .heading h1 {
-  color: var(--shumba);
   text-transform: capitalize;
 }
 
@@ -38,13 +37,18 @@ hr {
   gap: 1rem;
 }
 
-.heading h1, h2, h3 {
+.heading h1,
+h2,
+h3 {
+  color: var(--darkGrey);
   font-style: italic;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 .content {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
+  flex-direction: row-reverse;
   gap: 1rem;
 }
 
@@ -58,14 +62,8 @@ hr {
 
 .left-c img {
   border-radius: 0.5rem;
-  width: 400px;
-  height: 350px;
-  object-fit: cover;
-  filter: saturate(0.5);
-}
-
-.left-c img:hover {
-  filter: saturate(1);
+  height: 100%;
+  object-fit: contain;
 }
 
 .right-c {
@@ -110,7 +108,7 @@ hr {
 
   .right-c {
     width: 100%;
-    margin:0 0 2rem 0;
+    margin: 0 0 2rem 0;
   }
 
   .right-c .btn {

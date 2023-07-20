@@ -5,24 +5,24 @@ import { services } from "../../constants";
 import { FaArrowRight } from "react-icons/fa";
 
 const ServiceCard = ({ serviceName, serviceIcon, serviceDescription }) => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
-  <article className="service-card">
-    <div className="service-content">
-      <div className="icon">{serviceIcon}</div>
-      <div className="service-name">
-        <h1 style={{fontStyle: "italic"}}>{serviceName}</h1>
+    <article className="service-card">
+      <div className="service-content">
+        <div className="icon">{serviceIcon}</div>
+        <div className="service-name">
+          <h1 style={{ fontStyle: "italic" }}>{serviceName}</h1>
+        </div>
+        <div className="service-description">
+          <p>{serviceDescription}</p>
+        </div>
       </div>
-      <div className="service-description">
-        <p>{serviceDescription}</p>
-      </div>
-    </div>
-    <button className="btn btn-outline" onClick={() => navigate('/services')}>
-      Know More <FaArrowRight />
-    </button>
-  </article>
-);
-}
+      <button className="btn btn-outline" onClick={() => navigate("/services")}>
+        Know More <FaArrowRight />
+      </button>
+    </article>
+  );
+};
 
 const Services = () => {
   return (

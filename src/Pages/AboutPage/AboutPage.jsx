@@ -89,7 +89,9 @@ const AboutPage = () => {
               - each innovation guided by our vision to positively transform
               lives through fashion, finances and community that empower.
             </p>
-            <a href="/#services" className="btn" style={{marginTop: "2rem"}}>Explore Our Services <FaArrowRight /></a>
+            <a href="/#services" className="btn" style={{ marginTop: "2rem" }}>
+              Explore Our Services <FaArrowRight />
+            </a>
           </div>
         </div>
       </div>
@@ -199,7 +201,7 @@ const AboutPage = () => {
       <div className="team">
         <div className="team-intro">
           <div className="heading">
-            <h1>Meet Leading Our Team</h1>
+            <h1>Meet Our Leading Team</h1>
             <hr />
             <p>The Minds Behind Shumba Money</p>
           </div>

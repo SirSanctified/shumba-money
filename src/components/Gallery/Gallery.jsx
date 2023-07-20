@@ -7,10 +7,14 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Photo = ({ image }) => (
   <div className="photo">
-    <a className="overlay__div" href="https://instagram.com/" target="blank" >
-    <div className="icon">
-      <BsInstagram size={30} color="#d9d9d9" />
-    </div>
+    <a
+      className="overlay__div"
+      href="https://instagram.com/_shumba_money_official_/"
+      target="blank"
+    >
+      <div className="icon">
+        <BsInstagram size={30} color="#d9d9d9" />
+      </div>
     </a>
     <img src={image.img} alt={image.alt} />
   </div>
@@ -21,12 +25,12 @@ const Gallery = () => {
 
   const scroll = (direction) => {
     const { current } = scrollRef;
-    if(direction === 'left') {
-      current.scrollLeft -= 400;
+    if (direction === "left") {
+      current.scrollLeft -= 450;
     } else {
-      current.scrollLeft += 400;
+      current.scrollLeft += 450;
     }
-  }
+  };
   return (
     <section className="Gallery" id="Gallery">
       <div className="gallery-content">
@@ -46,7 +50,7 @@ const Gallery = () => {
           won&#39;t miss any updates.
         </p>
         <a
-          href="https://instagram.com"
+          href="https://instagram.com/_shumba_money_official_/"
           target="blank"
           className="btn"
           style={{
@@ -58,10 +62,18 @@ const Gallery = () => {
       </div>
       <article className="images">
         <div className="leftArrow">
-          <MdOutlineChevronLeft size={40} className="arrow" onClick={() => scroll('left')} />
+          <MdOutlineChevronLeft
+            size={40}
+            className="arrow"
+            onClick={() => scroll("left")}
+          />
         </div>
         <div className="rightArrow">
-          <MdOutlineChevronRight size={40} className="arrow" onClick={() => scroll('right')} />
+          <MdOutlineChevronRight
+            size={40}
+            className="arrow"
+            onClick={() => scroll("right")}
+          />
         </div>
         <div className="photos" ref={scrollRef}>
           {galleryImages.map((image, index) => (

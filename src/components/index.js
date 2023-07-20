@@ -10,7 +10,6 @@ import FAQS from "./FAQS/FAQS";
 import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
 import Gallery from "./Gallery/Gallery";
-import Brands from "./Brands/Brands";
 import Missing from "./Missing/Missing";
 
 export {
@@ -26,6 +25,5 @@ export {
   Footer,
   Hero,
   Gallery,
-  Brands,
   Missing,
-}
+};

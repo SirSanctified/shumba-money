@@ -23,7 +23,8 @@
   transition: all 1s linear;
 }
 
-.question:hover, .answer:hover {
+.question:hover,
+.answer:hover {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
 }
 .question {
@@ -31,12 +32,12 @@
   align-items: center;
   justify-content: space-between;
   padding-block: 1rem;
-  background: rgba(217, 217, 217, 0.1);
+  background: var(--appColor);
   padding: 1rem 2rem;
 }
 
 .answer {
-  background: rgba(217, 217, 217, 0.1);
+  background: var(--appColor);
   padding: 1rem 2rem;
 }
 
@@ -54,7 +55,8 @@
     grid-template-columns: 1fr;
   }
 
-  .question, .answer {
+  .question,
+  .answer {
     padding: 1rem;
   }
 }

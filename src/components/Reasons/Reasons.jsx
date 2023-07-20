@@ -2,15 +2,16 @@ import React from "react";
 import "./Reasons.css";
 import { images } from "../../assets";
 import { MdTaskAlt } from "react-icons/md";
+import { reasons } from "../../constants/reasons";
 
 const Reasons = () => {
   return (
     <section className="Reasons">
       <div className="left-r">
-        <img src={images.blues} alt="Lady in blues" />
+        <img src={reasons.tall} alt="Lady in blues" />
         <img src={images.money} alt="Mixture of money in coins and notes" />
-        <img src={images.suit} alt="A man's suit" />
-        <img src={images.bags} alt="Lady holding shopping bags" />
+        <img src={reasons.long} alt="A man's suit" />
+        <img src={reasons.second} alt="Lady holding shopping bags" />
       </div>
       <div className="right-r">
         <div className="heading">

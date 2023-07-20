@@ -7,6 +7,7 @@
   align-items: center;
   gap: 1rem;
   justify-content: space-between;
+  background: var(--appColor);
 }
 
 .logo {
@@ -22,10 +23,11 @@
   width: auto;
   object-fit: cover;
   border-radius: 50%;
+  filter: none;
 }
 
 .logo > p {
-  color: #f5f5f5;
+  color: var(--lightgray);
   opacity: 0.9;
   font-weight: bold;
   text-transform: uppercase;
@@ -94,6 +96,7 @@
   }
   .mobile-menu__container {
     display: block;
+    z-index: 2;
   }
   .menu-btn > * {
     font-size: 2rem;
@@ -109,10 +112,10 @@
     width: 100%;
     height: 20rem;
     padding: 1.5rem;
-    background: #d9d9d9;
+    background: var(--appColor);
     position: absolute;
-    top: 5rem;
+    top: 4rem;
     right: 0;
-    z-index: 1;
+    z-index: 2;
   }
 }

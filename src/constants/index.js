@@ -1,9 +1,5 @@
 import galleryImages from "./galleryData";
 import teamMembers from "./team";
-import services from './services';
+import services from "./services";
 
-export {
-  galleryImages,
-  teamMembers,
-  services
-}
+export { galleryImages, teamMembers, services };

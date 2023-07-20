@@ -1,7 +1,19 @@
-import { FaTshirt, FaAd, FaTv, FaArrowRight, FaDollarSign, FaNewspaper } from "react-icons/fa";
+import {
+  FaTshirt,
+  FaAd,
+  FaTv,
+  FaArrowRight,
+  FaDollarSign,
+  FaNewspaper,
+} from "react-icons/fa";
 import { images, videos } from "../assets";
 import { Video } from "../components";
-import { MdCheckCircleOutline, MdEventAvailable, MdEventNote, MdGroup } from "react-icons/md";
+import {
+  MdCheckCircleOutline,
+  MdEventAvailable,
+  MdEventNote,
+  MdGroup,
+} from "react-icons/md";
 
 const Clothing = () => (
   <section className="clothing">
@@ -14,7 +26,7 @@ const Clothing = () => (
       </p>
       <div className="clothing-image">
         <div className="bgColor" />
-        <img src={images.stylishWoman} alt="" />
+        <img src={images.clothing} alt="" />
       </div>
     </div>
     <div className="list">
@@ -36,31 +48,31 @@ const Clothing = () => (
           </p>
           <ul>
             <li>
-              <MdCheckCircleOutline color="orange" />
+              <MdCheckCircleOutline color="richblack" />
               Classic tees in graphic prints and solid colors,
             </li>
             <li>
-              <MdCheckCircleOutline color="orange" />
+              <MdCheckCircleOutline color="richblack" />
               Versatile denim in on-trend washes,
             </li>
             <li>
-              <MdCheckCircleOutline color="orange" />
+              <MdCheckCircleOutline color="richblack" />
               Sleek hoodies and sweatshirts,
             </li>
             <li>
-              <MdCheckCircleOutline color="orange" />
+              <MdCheckCircleOutline color="richblack" />
               Oversized button-ups and shirts,
             </li>
             <li>
-              <MdCheckCircleOutline color="orange" />
+              <MdCheckCircleOutline color="richblack" />
               Chunky sneakers and canvas shoes,
             </li>
             <li>
-              <MdCheckCircleOutline color="orange" />
+              <MdCheckCircleOutline color="richblack" />
               Stylish accessories like hats, belts and jewellery,
             </li>
             <li>
-              <MdCheckCircleOutline color="orange" />
+              <MdCheckCircleOutline color="richblack" />
               And even more.{" "}
             </li>
           </ul>
@@ -472,14 +484,14 @@ const Money = () => (
   </section>
 );
 
-const fashion = <FaTshirt />
-const advertising = <FaAd />
-const entertainment = <FaTv />
-const money = <FaDollarSign />
-const news = <FaNewspaper />
-const events = <MdEventAvailable />
-const eventPlanning = <MdEventNote />
-const consultation = <MdGroup />
+const fashion = <FaTshirt />;
+const advertising = <FaAd />;
+const entertainment = <FaTv />;
+const money = <FaDollarSign />;
+const news = <FaNewspaper />;
+const events = <MdEventAvailable />;
+const eventPlanning = <MdEventNote />;
+const consultation = <MdGroup />;
 
 const services = [
   {

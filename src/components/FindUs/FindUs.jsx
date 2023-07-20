@@ -17,7 +17,13 @@ const FindUs = () => {
           <span>
             <MdLocationCity />
           </span>
-          <span>7890 Luna Street, Opposite Choppies, Beitbridge, Zimbabwe</span>
+          <span>Office 22, Living Waters, Beitbridge</span>
+        </div>
+        <div>
+          <span>
+            <MdLocationCity />
+          </span>
+          <span>8463 Manyame Park, Chitungwiza, Harare</span>
         </div>
         <div>
           <span>
@@ -29,9 +35,9 @@ const FindUs = () => {
             <span>Sunday: Closed</span>
           </div>
         </div>
-        <button className="btn" style={{ marginTop: "2rem" }}>
+        <a href="/#Contact" className="btn" style={{ marginTop: "2rem" }}>
           Talk To Us Online <FaArrowRight />
-        </button>
+        </a>
       </div>
       <div className="right-l">
         <div className="image-container">

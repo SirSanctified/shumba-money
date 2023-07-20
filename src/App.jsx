@@ -19,7 +19,6 @@ import {
   Footer,
   Hero,
   Gallery,
-  Brands,
   Missing,
 } from "./components";
 import { AboutPage, ServicesPage } from "./Pages";
@@ -36,9 +35,8 @@ const Root = () => (
 const Home = () => (
   <>
     <Hero />
-    <Brands />
     <About />
-    <Video source={videos.fashion}/>
+    <Video source={videos.fashion} />
     <Services />
     <Gallery />
     <Reasons />
@@ -52,17 +50,17 @@ const Home = () => (
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<Root />}>
+      <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
-        <Route path='about' element={<AboutPage />} />
-        <Route path='services' element={<ServicesPage />} />
-        <Route path='*' element={<Missing />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="services" element={<ServicesPage />} />
+        <Route path="*" element={<Missing />} />
       </Route>
     )
   );
   return (
     <div className="App">
-      <RouterProvider router={router} ></RouterProvider>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 };

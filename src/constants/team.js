@@ -4,17 +4,13 @@ import {
   BiLogoInstagram,
   BiLogoTwitter,
 } from "react-icons/bi";
-import founder from "../assets/images/founder.jpeg";
+import founder from "../assets/Shumba/founder.jpg";
 import melusi from "../assets/images/melusi.webp";
 import evelyn from "../assets/images/evelyn.jpeg";
-import maxwell from "../assets/images/maxwell.jpeg";
-import dennis from "../assets/images/dennis.jpeg";
-import nina from "../assets/images/nina.webp";
-
 
 const teamMembers = [
   {
-    name: "Marshall Tatenda Maravanyika",
+    name: "Marshall Tatenda Mushayikwa",
     position: "Founder & CEO",
     image: founder,
     description:
@@ -22,7 +18,7 @@ const teamMembers = [
     socials: [
       {
         icon: <BiLogoLinkedin />,
-        link: "https://linkedin.com/in/",
+        link: "https://linkedin.com/in/marshall-tatenda-mushayikwa/",
       },
       {
         icon: <BiLogoTwitter />,
@@ -69,81 +65,6 @@ const teamMembers = [
     image: evelyn,
     description:
       "I joined Shumba Money to help people find the courage to dress how they truly want - not how they think they should. Style is self-expression, and I believe fashion has the power to inspire people to become the best version of themselves.",
-    socials: [
-      {
-        icon: <BiLogoLinkedin />,
-        link: "https://linkedin.com/in/",
-      },
-      {
-        icon: <BiLogoTwitter />,
-        link: "https://twitter.com",
-      },
-      {
-        icon: <BiLogoFacebook />,
-        link: "https://facebook.com/",
-      },
-      {
-        icon: <BiLogoInstagram />,
-        link: "https://instagram.com",
-      },
-    ],
-  },
-  {
-    name: "Maxwell Mbombo",
-    position: "Director of Financial Services",
-    image: maxwell,
-    description:
-      "At Shumba Money, we take a holistic approach to wealth - it's about more than money in the bank account. Our goal is to foster financial habits that build wealth, community and well-being for years to come.",
-    socials: [
-      {
-        icon: <BiLogoLinkedin />,
-        link: "https://linkedin.com/in/",
-      },
-      {
-        icon: <BiLogoTwitter />,
-        link: "https://twitter.com",
-      },
-      {
-        icon: <BiLogoFacebook />,
-        link: "https://facebook.com/",
-      },
-      {
-        icon: <BiLogoInstagram />,
-        link: "https://instagram.com",
-      },
-    ],
-  },
-  {
-    name: "Dennis Moyo",
-    position: "Creative Director",
-    image: dennis,
-    description:
-      "Design is about problem-solving through the lens of beauty - and Shumba Money exists to solve the very real problems of financial exclusion and lack of community. My team and I aim to solve both challenges through visuals that inspire and uplift.",
-    socials: [
-      {
-        icon: <BiLogoLinkedin />,
-        link: "https://linkedin.com/in/",
-      },
-      {
-        icon: <BiLogoTwitter />,
-        link: "https://twitter.com",
-      },
-      {
-        icon: <BiLogoFacebook />,
-        link: "https://facebook.com/",
-      },
-      {
-        icon: <BiLogoInstagram />,
-        link: "https://instagram.com",
-      },
-    ],
-  },
-  {
-    name: "Nina Shati",
-    position: "Marketing Director",
-    image: nina,
-    description:
-      "Shumba Money celebrates the hustlers, the rule-breakers and the aesthetes who are shaping the future. My job is to craft campaigns that speak directly to those independent thinkers and creators, igniting a movement of self-made men and women united through fashion and finance.",
     socials: [
       {
         icon: <BiLogoLinkedin />,
