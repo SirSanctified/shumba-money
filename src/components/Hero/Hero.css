@@ -27,7 +27,7 @@
 
 .right-h {
   position: relative;
-  padding-inline: 0 2rem;
+  padding-inline: 0 4rem;
   flex: 1 1;
 }
 
@@ -39,7 +39,7 @@
   flex: 1 1;
   height: 100%;
   padding-top: 2rem;
-  padding-inline: 2rem 0;
+  padding-inline: 4rem 0;
   padding-bottom: 2rem;
   position: relative;
   z-index: 1;

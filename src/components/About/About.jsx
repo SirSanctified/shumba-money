@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./About.css";
 import { images } from "../../assets";
 import { FaArrowRight } from "react-icons/fa";
+import CustomButton from "../Button";
 
 const About = () => {
   const navigate = useNavigate();
@@ -30,12 +31,10 @@ const About = () => {
             entertaining themselves. With us, you can also send money to your
             loved ones with ease.
           </p>
-          <button
-            className="btn btn-outline"
+          <CustomButton
+            title="Learn More"
             onClick={() => navigate("/about")}
-          >
-            Learn More <FaArrowRight />
-          </button>
+          />
         </div>
         <div className="left-c">
           <img src={images.about} alt="" />

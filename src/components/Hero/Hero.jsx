@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "@nextui-org/react";
+import { FaCheck } from "react-icons/fa";
 import "./Hero.css";
-import { FaArrowRight, FaCheck } from "react-icons/fa";
-
+import CustomButton from "../Button";
 const Hero = () => {
   const width = window.innerWidth;
   const transition = {
@@ -49,9 +50,9 @@ const Hero = () => {
           </li>
         </ul>
         <p>All designed to unleash the fullest version of you.</p>
-        <a href="/#services" className="btn btn-hero">
-          Find Out How <FaArrowRight />
-        </a>
+        <Link href="/#services" className="w-[100%]">
+          <CustomButton title="Find Out How" filled />
+        </Link>
       </div>
       <div className="right-h">
         <div className="images"></div>
