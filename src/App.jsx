@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
+import {NextUIProvider} from "@nextui-org/react";
 import {
   Header,
   About,
@@ -59,9 +60,11 @@ const App = () => {
     )
   );
   return (
+    <NextUIProvider>
     <div className="App">
       <RouterProvider router={router}></RouterProvider>
     </div>
+    </NextUIProvider>
   );
 };
 
